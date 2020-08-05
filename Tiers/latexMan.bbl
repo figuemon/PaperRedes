@@ -37,4 +37,42 @@ T.~Shahrani, A.~Ramdhania, and M.~Lubis, ``Implementation of building
   networking content company,'' \emph{Journal of Physics: Conference Series},
   vol. 1361, p. 012074, 11 2019.
 
+\bibitem{amazon_2003}
+\BIBentryALTinterwordspacing
+``Aws uptime institute compliance,'' 2003. [Online]. Available:
+  \url{https://aws.amazon.com/compliance/uptimeinstitute/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{cisco_2020}
+\BIBentryALTinterwordspacing
+``What is a data center?'' Jun 2020. [Online]. Available:
+  \url{https://www.cisco.com/c/en/us/solutions/data-center-virtualization/what-is-a-data-center.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{volico_2018}
+\BIBentryALTinterwordspacing
+Volico, ``What are the major differences between data center tiers: Volico,''
+  Dec 2018. [Online]. Available:
+  \url{https://www.volico.com/what-are-the-major-differences-between-data-center-tiers/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{george}
+\BIBentryALTinterwordspacing
+A.~S. George, ``Sistema de clasificación tier.'' [Online]. Available:
+  \url{https://es.uptimeinstitute.com/tiers}
+\BIBentrySTDinterwordspacing
+
+\bibitem{zhengbing_gnatyuk_koval_gnatyuk_bondarovets_2017}
+H.~Zhengbing, S.~Gnatyuk, O.~Koval, V.~Gnatyuk, and S.~Bondarovets, ``Anomaly
+  detection system in secure cloud computing environment,'' \emph{International
+  Journal of Computer Network and Information Security}, vol.~9, no.~4, p.
+  10–21, 2017.
+
+\bibitem{castro}
+\BIBentryALTinterwordspacing
+J.~Castro, ``Costa rica lidera mercado de datacenters en el istmo.'' [Online].
+  Available:
+  \url{https://www.larepublica.net/noticia/costa-rica-lidera-mercado-de-datacenters-en-el-istmo}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}

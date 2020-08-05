@@ -346,7 +346,7 @@
 
 % Paquete para saltos del inea
 \usepackage[utf8]{inputenc}
-
+\usepackage[table,xcdraw]{xcolor}
 
 % Paquete para utilizar colores
 \usepackage{color}
@@ -457,7 +457,7 @@ TIERS, Data Center, Redes de Computadores Avanzadas
 
 
 
-\section{Historia de \LaTeX }
+
 % The very first letter is a 2 line initial drop letter followed
 % by the rest of the first word in caps.
 % 
@@ -484,6 +484,37 @@ data center en cuatro categorias dependiendo de aspectos relacionados a la fiabi
 Según el Uptime institute, los primeros TIER I aparecen a inicio de la decada de 1960, Tier II en los 70, y Tier III a finales de los años 80 y principios de los 90, y finalmente
 se incorpora la definición de Tier IV en 1994 con la disponibilidad de equipos con doble fuente de poder.
 
+\section{Data Centers}
+Un Data Center, es un lugar físico que alberga los sistemas críticos que sustentan una red computacional de una o varias organizaciones, se caracterizan por tener gran cantidad de equipo informático 
+de gestión de energía y sistemas de enfriamiento y seguridad para velar por la continuidad del servicio brindado en las organizaciones.
+Un banco o una entidad gubernamental requiere de los servicios de un data center para gestionar toda la información y transacciones asociadas a su respectiva finalidad. De igual manera empresas privadas pueden hacer
+uso de estos data center para gestionar y administrar sus transacciones, comunicaciones e información.
+
+Algunos de los centros de datos se construyen también con la finalidad de soportar la operación de clientes externos, es decir se alquila su poder computacional y de almacenamiento para que sea utilizado por
+clientes mediante un servicio de subscripción \cite{amazon_2003}.
+
+\section{Servicios de un Data Center}
+Segun CISCO \cite{cisco_2020}, los data center son comúnmente utilizados por las organizaciones y empresas principalmente para soportar aplicaciones y actividades necesarias para su operación tales
+como:
+\begin{itemize}
+  \item Email y archivos compartidos.
+  \item Aplicaciones de productividad (Git, TFS, Jira).
+  \item Sistemas de planeamiento empresarial (ERP) y bases de datos.
+  \item Big data, sistemas de inteligencia artificial y machine learning,
+  \item Virtual desktops, comunicaciones y servicios de colaboración.
+\end{itemize}
+
+\section{Componentes de un Data Center}
+Además de la infraestructura física, sistemas de enfriamiento y de gestión eléctrica, un data center se compone principalmente de equipo de compúto tal como:
+router, switches, firewalls, sistemas de almacenamiento y servidores.
+Todos estos componentes se utilizan para proveer los principales servicios del data center que se pueden categorizar en:
+\begin{itemize}
+  \item Infraestructura de Red: Conectividad entre servidores, servicios, y sistemas de almacenamiento.
+  \item Infraestructura de Almacenamiento: La finalidad de un data center son los datos, por lo que el almacenamiento constituye uno de sus valores primarios.
+  \item Recursos computacionales: Los data center proveen el poder computacional para ejecutar las aplicaciones que requiere una organización, cuentan con suficiente poder de procesamiento, memoria y almacenamiento para que 
+  los servicios que proveen estas aplicaciones sean accesibles a los usuarios que lo requieran.
+\end{itemize}
+
 \section{Definición de los Tiers}
 Las distintas clasificaciones Tier indican un nivel de fiabilidad aceptada para un data center, categorizada en los cuatro
 niveles mencionados anteriormente. Esta fiabilidad esta asociada a un nivel esperao de disponibilidad y tolerancia a fallas, por lo que el costo
@@ -491,18 +522,97 @@ mantener una infraestructura con mayor disponibilidad es mucho mayor.
 
 El estándar define cuatro categorias, ordenadas de menor a mayor rango de disponibilidad, asi que entre más alto sea el Tier del data center
 este tendrá un mejor servicio con respecto a la tolerancia a fallos en general. 
-\subsection{Tier 1}
-Según la definición del estándar en \cite{pitt_turner}, un data center Tier I es suceptible a interrupciones en el servicio por parte de actividades  planeadas y no planeadas.
+En la figura \ref{volico} se detalla la principal diferencia con respecto al tiempo de disponibilidad relativo de cada categoría del sistema de clasificación TIER.
+\begin{figure*}
+  \centering
+  \includegraphics[scale=0.3]{Data-Center-Tiers.jpg}
+  \caption{Diferencias de disponibilidad entre clasificaciones TIER, tomado de \cite{volico_2018}}
+  \label{volico}
+\end{figure*}
+\subsection{Tier I}
+Según la definición del estándar en \cite{pitt_turner}, un data center Tier I es susceptible a interrupciones en el servicio por parte de actividades  planeadas y no planeadas.
 Posee distribución del poder de computación y un sistema de enfriamiento, pero puede carecer de un piso elevado y sistemas de protección ante fallas 
 eléctricas como una UPS o un generador y si se tuviesen son módulos individuales, por lo que son potencialmente muchos puntos de falla.
 Parte de la definición del Tier I es que toda su infraestructura debe apagarse completamente de manera anual para realizar mantenimiento preventivo y trabajos de reparación.
-Cuando se presentan situaciones urgentes, son suceptibles a más interrupciones en el serviio, asi  como cuando ocurren fallas espontaneas en equipos que pueden causar una caída total del servicio brindado por el data center.
-\subsection{Tier 2}
-\subsection{Tier 3}
-\subsection{Tier 4}
+Cuando se presentan situaciones urgentes, son susceptibles a más interrupciones en el servicio, asi  como cuando ocurren fallas espontáneas en equipos que pueden causar una caída total del servicio brindado por el data center.
+\subsection{Distribucion de Energía para Tier I}
+Tier I se compone de una única fuente de distribución de energía y de enfriamiento, sin componentes redundantes que proveen un 99.671\% de disponibilidad\cite{pitt_turner}.
+Este porcentaje de disponibilidad se puede traducir en alrededor de 29 horas de impacto en el servicio al año.
+\subsection{Tier II}
+En el segundo nivel del estándar del Uptime Institute, se encuentran los Tier II con componentes redundantes, que los hacen ligeramente menos susceptibles a interrupciones inesperadas en el servicio.
+Tienen que construirse en un piso elevado, contar con dispositivos para mitigar fallas en el sistema eléctrico (UPS y generadores). Sin embargo, cuentan con una única vía para la distribución de energía,
+por lo que un mantenimiento del mecanismo de distribución de energía require un tiempo de baja total del sistema.
+\subsection{Distribución de Energía para Tier II}
+Tier II se compone de una vía única para la distribución de energía y enfriamiento, con componentes redundantes por lo que ofrece una disponibilidad relativa de 99.741\% del tiempo. Esto es equivalente a 
+que el servicio no se encuentra inactivo por más de 22 horas al año.
+\subsection{Tier III}
+El tercer nivel del estándar se enfoca en mantenimientos simultáneos, es decir que permiten realizar actividades planeadas sobre la infraestructura del data center sin interrumpir la prestación de servicios.
+Entre las actividades planeadas se incluyen mantenimiento preventivo y reparación o sustitución de equipos y componentes, así como la capacidad de agregar o remover parte de estos para aumentar o disminuir la capacidad
+del data center. 
+Las actividades no planeadas como errores o fallas espontáneas de los componentes aún causarían una interrupción en el servicio. La manera más común de verificar si se encuentra ante un Tier III es la capacidad de realizar cualquier
+trabajo planeado sin interrupciones al servicio que brinda el data center.
+\subsection{Distribución de Energía para Tier III}
+Tier III se compone de varias fuentes distintas para la distribución de la energía y el sistema de enfriamiento, sin embargo solo una se encuentra activa a la vez. Los Tier III además cuentan con componentes redundantes que permiten
+un manteniento concurrente, estos data centers ofrecen una disponibilidad de 99.982\%. En este nivel el porcentaje de disponibilidad equivale a tan solo 1.6 horas de baja en el servicio de manera anual.
+\subsection{Tier IV}
+En este nivel se considera al data center como tolerante a fallas, los data center de tipo Tier IV proveen las capacidades de infraestructura que permiten realizar cualquier actividad planeada sin afectación al servicio 
+brindado. Se cuenta con vías de distribución de energía y enfriamiento simultaneamente activas, lo que significa que cada equipo cuenta con almenos dos UPS separadas, además los equipos cuentan con doble entrada de energía.
+\subsection{Distribución de Energía para Tier IV}
+Se componen de múltiples vías para la distribución de energía y enfriamiento que se encuentran activas de manera simúltanea, esta configuración permite un 99,9995\% de disponibilidad. Los data centers tipo Tier IV solamente presentan bajas en el servicio a lo sumo 0.5 horas cada año.
+\section{Proceso de Certificación TIER}
+En \cite{george}, se detalla el sistema de certificación definido por el Uptime Institute como única entidad encargada de calificar y certificar los diseños de instalaciones destinadas a data centers. 
+Se consideran aspectos relevantes de la infraestructura y topología para garantizar la ausencia de puntos débiles en las infraestructuras de los centros de datos.
+Entre los pasos seguidos para obtener la certificación necesaria están:
+\\
+\\
+\begin{itemize}
+  \item Tier Gap Analysis que permite identificar problemas que impidan cumplir los objetivos de Tier.
+  \item Una revisión completa de los documentos de diseño del data center.
+  \item Verificación en sitio de la infraestructura instalada.
+  \item Evaluación de la presencia y eficacia de la administración y las operaciones del data center.
+\end{itemize}
 \section{Data Centers más utilizados}
+Según \cite{amazon_2003}, uno de los data centers más utilizados en el mundo es el de amazon.com que provee mediante su plataforma de servicios AWS este se encuentra bajo la modalidad Tier IV
+lo que permite a sus usuarios alcanzar un alto nivel de disponibilidad de los servicios alojados en su plataforma.
+De igual manera, según Hu et al.\cite{zhengbing_gnatyuk_koval_gnatyuk_bondarovets_2017} muchos otros data centers disponibles para su uso público mediante un servicio de subscripción como los ofrecidos por Microsoft son también Tier IV.
 \section{Situación en Costa Rica}
+En Costa Rica existen al menos 14 data centers certificados por el Uptime Institute. De los cuales los correspondientes al INS (\emph{Instituto Nacional de Seguros}) y al Ministerio de Hacienda cuentan con la certificación Tier IV \cite{castro}.
+también otras instituciones gubernamentales como RECOPE y privadas como CODISA y ADN cuentan con centros de datos del Tipo Tier III. En la tabla \ref{tablacr} se presenta un resumen de los data center certificados en Costa Rica.
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[]
+  \begin{tabular}{|l|l|}
+  \hline
+  \rowcolor[HTML]{DAE8FC} 
+  {\color[HTML]{00009B} Data Center}                                                                                                                     & {\color[HTML]{00009B} Tier} \\ \hline
+  Ins, Hacienda                                                                                                                                          & IV                          \\ \hline
+  \begin{tabular}[c]{@{}l@{}}Recope, BCR, Caja de Ande, ADN,Green Data\\ Critical Colocation, Codisa, ICE, Mutual Alajuela,\\ Banco Popular\end{tabular} & III                         \\ \hline
+  HP, CAC, Mucap                                                                                                                                         & II                          \\ \hline
+  \end{tabular}
+  \caption{Data centers certificados en Costa Rica.\cite{castro}} \label{tablacr}
+  \end{table}
+
 \section{Conclusiones}
+El sistema de clasificación del Uptime Institute es un mecanismo útil para conocer la fiabilidad de un data center de manera agnóstica a
+los proveedores de los servicios y de los equipos en general.
+Las medidas de disponibilidad y fiabilidad se basan en las caracteristicas de los equipos y en la infraestructura que compone al data center asi como a la presencia o ausencia
+de sistemas de gestión de energía, enfriamiento y seguridad.
+
+Un data center certificado con la norma Tier permite de antemano conocer su tiempo esperado de disponibilidad y saber el riesgo que corren los servicios a no estar disponibles 
+en un tiempo determinado.
+
+Debido a la creciente expansión en los servicios basados en la conectividad y comunicación, así como al auge de tópicos como el internet de las cosas y las tecnologías móviles 
+se tiene una necesidad creciente en el acceso a recursos computacionales no solo de alto rendimiento, si no que con una alta disponibilidad, por lo que servicios alojados en data centers
+de acceso público son una opción importante para poder lograr continuidad en los servicios sin la inversión requerida para una infraestructura local con el mismo nivel de disponibilidad.
+
+Los servicios brindados por grandes empresas como Amazon ofrecen la disponibilidad y seguridad de un data center Tier IV o incluso ligeramente superior, en términos del porcentaje de disponibilidad, a un 
+costo rasonable para las organizaciones.
+
+De igual manera aquellas organizaciones que por la sensibilidad de sus datos requieran una infraestructura propia, pueden utilizar las certificaciones Tier como una garantía en el diseños
+de sus centros de datos y en la capacidad de respuesta ante fallas o actividades planeadas que no afecten la prestación de sus servicios.
+
 % references section
 
 % can use a bibliography generated by BibTeX as a .bbl file
