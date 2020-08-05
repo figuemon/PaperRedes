@@ -112,12 +112,7 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\times\ptmrc7t.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT c:\Users\Manuel\Documents\Maestria\Redes Avanzadas\Papers\Tiers\images\Data-Center-Tiers.jpg
-INPUT c:\Users\Manuel\Documents\Maestria\Redes Avanzadas\Papers\Tiers\images\Data-Center-Tiers.jpg
 OUTPUT c:\Users\Manuel\Documents\Maestria\Redes Avanzadas\Papers\Tiers\latexMan.pdf
-INPUT c:\Users\Manuel\Documents\Maestria\Redes Avanzadas\Papers\Tiers\images\Data-Center-Tiers.jpg
-INPUT c:\Users\Manuel\Documents\Maestria\Redes Avanzadas\Papers\Tiers\images\Data-Center-Tiers.jpg
-INPUT c:\Users\Manuel\Documents\Maestria\Redes Avanzadas\Papers\Tiers\images\Data-Center-Tiers.jpg
 INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\Manuel\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
@@ -141,6 +136,11 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\adobe\times\ptmri7t.vf
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT c:\Users\Manuel\Documents\Maestria\Redes Avanzadas\Papers\Tiers\images\Data-Center-Tiers.jpg
+INPUT c:\Users\Manuel\Documents\Maestria\Redes Avanzadas\Papers\Tiers\images\Data-Center-Tiers.jpg
+INPUT c:\Users\Manuel\Documents\Maestria\Redes Avanzadas\Papers\Tiers\images\Data-Center-Tiers.jpg
+INPUT c:\Users\Manuel\Documents\Maestria\Redes Avanzadas\Papers\Tiers\images\Data-Center-Tiers.jpg
+INPUT c:\Users\Manuel\Documents\Maestria\Redes Avanzadas\Papers\Tiers\images\Data-Center-Tiers.jpg
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm
