@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex latexMan"] 1596593916 "latexMan.aux" "latexMan.bbl" "latexMan" 1596593919
+["bibtex latexMan"] 1596766007 "latexMan.aux" "latexMan.bbl" "latexMan" 1596766012
   "C:/Users/Manuel/AppData/Roaming/MiKTeX/2.9/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "bibliography.bib" 1596591327 2419 122d965b791f4d6bd6f19fdd0a019809 ""
-  "latexMan.aux" 1596593919 3650 720560f00fe73d860332bc77d3a7f4d7 "pdflatex"
+  "bibliography.bib" 1596765985 3336 0f8ce4123c2c4244960e5307d2da2122 ""
+  "latexMan.aux" 1596766009 4089 56713f5f912e272394aef99ea7c85f80 "pdflatex"
   (generated)
   "latexMan.bbl"
   "latexMan.blg"
-["pdflatex"] 1596593917 "c:/Users/Manuel/Documents/Maestria/Redes Avanzadas/Papers/Tiers/latexMan.tex" "c:/Users/Manuel/Documents/Maestria/Redes Avanzadas/Papers/Tiers/latexMan.pdf" "latexMan" 1596593919
+["pdflatex"] 1596766007 "c:/Users/Manuel/Documents/Maestria/Redes Avanzadas/Papers/Tiers/latexMan.tex" "c:/Users/Manuel/Documents/Maestria/Redes Avanzadas/Papers/Tiers/latexMan.pdf" "latexMan" 1596766012
   "C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmb7t.tfm" 1136793854 2172 fd0c924230362ff848a33632ed45dc23 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/times/ptmb8r.tfm" 1136793854 4524 6bce29db5bc272ba5f332261583fee9c ""
@@ -25,6 +25,8 @@
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr8.tfm" 1136765053 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmsy6.tfm" 1136765053 1116 933a60c408fc0a863a92debe84b2d294 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
+  "C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb" 1136874948 44729 fea0975e20ec51c992338362f05f1146 ""
   "C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb" 1136874948 44656 0cbca70e0534538582128f6b54593cca ""
   "C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb" 1136874948 46026 687528a208fbfc1f00832bb96cccebbb ""
@@ -69,15 +71,16 @@
   "C:/Users/Manuel/AppData/Roaming/MiKTeX/2.9/tex/latex/psnfss/ot1ptm.fd" 1585253778 1007 15056f4a61917ceed3a44e4ac11fcc52 ""
   "C:/Users/Manuel/AppData/Roaming/MiKTeX/2.9/tex/latex/subfigure/subfigure.cfg" 1114307770 2114 42ba738bf6f1cec796106a69840777a4 ""
   "C:/Users/Manuel/AppData/Roaming/MiKTeX/2.9/tex/latex/subfigure/subfigure.sty" 1114307770 14815 1d3da78e0f66f3c62133fbabffd13cf5 ""
-  "c:/Users/Manuel/Documents/Maestria/Redes Avanzadas/Papers/Tiers/latexMan.aux" 1596593919 3650 720560f00fe73d860332bc77d3a7f4d7 ""
-  "c:/Users/Manuel/Documents/Maestria/Redes Avanzadas/Papers/Tiers/latexMan.tex" 1596593907 34301 b31dddb1836cabe886fadafabbb8bb6c ""
+  "c:/Users/Manuel/Documents/Maestria/Redes Avanzadas/Papers/Tiers/latexMan.aux" 1596766009 4089 56713f5f912e272394aef99ea7c85f80 ""
+  "c:/Users/Manuel/Documents/Maestria/Redes Avanzadas/Papers/Tiers/latexMan.tex" 1596766001 36449 d07ae663300ec4eee6231e97bb0febdb ""
   "images/Data-Center-Tiers.jpg" 1596585772 95979 5905af2021b182c2d6dca3c33ceafdd7 ""
-  "latexMan.aux" 1596593919 3650 720560f00fe73d860332bc77d3a7f4d7 "pdflatex"
-  "latexMan.bbl" 1596593916 3161 c4b7ea74a0ea66a5bbb32db6bb2c5e3a "bibtex latexMan"
-  "latexMan.tex" 1596593907 34301 b31dddb1836cabe886fadafabbb8bb6c ""
+  "images/tier-4-data-center.jpg" 1596762265 55757 73e9dcec4883601ba5916ce9cfa05cee ""
+  "latexMan.aux" 1596766009 4089 56713f5f912e272394aef99ea7c85f80 "pdflatex"
+  "latexMan.bbl" 1596766007 3963 e88fb0390e7b02593d9f2d6e46708e36 "bibtex latexMan"
+  "latexMan.tex" 1596766001 36449 d07ae663300ec4eee6231e97bb0febdb ""
   (generated)
-  "latexMan.aux"
   "c:/Users/Manuel/Documents/Maestria/Redes Avanzadas/Papers/Tiers/latexMan.pdf"
   "c:/Users/Manuel/Documents/Maestria/Redes Avanzadas/Papers/Tiers/latexMan.log"
   "latexMan.log"
   "latexMan.pdf"
+  "latexMan.aux"
